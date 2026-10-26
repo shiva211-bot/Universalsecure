@@ -1,0 +1,1 @@
+- [GitHub after project transfer](github-after-project-transfer.md) — re-resolve auth in the destination project; stale conversation handles may not provide usable credentials.

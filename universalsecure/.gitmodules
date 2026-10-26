@@ -1,0 +1,9 @@
+[submodule "upstreams/pentagi"]
+	path = upstreams/pentagi
+	url = https://github.com/vxcontrol/pentagi.git
+[submodule "upstreams/security-audit-skill"]
+	path = upstreams/security-audit-skill
+	url = https://github.com/cloudflare/security-audit-skill.git
+[submodule "upstreams/strix"]
+	path = upstreams/strix
+	url = https://github.com/usestrix/strix.git

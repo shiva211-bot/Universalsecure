@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "universalsecure"
+version = "0.1.0"
+description = "Offline, read-only security review for local source folders"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Universalsecure contributors" }]
+dependencies = []
+
+[project.scripts]
+universalsecure = "universalsecure.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["universalsecure*"]
+
